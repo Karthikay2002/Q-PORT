@@ -31,3 +31,34 @@ Portfolio optimization is a crucial task in finance, involving the selection of 
    - Efficient frontier plots to compare portfolio risk-return trade-offs.
    - Asset contribution breakdown showing individual return and risk contributions.
    - Measurement distribution of quantum states.
+  
+## Results
+
+| Metric               | Quantum Portfolio              | Classical Portfolio |
+|-----------------------|--------------------------------|---------------------|
+| **Selected Assets**   | AAPL, MSFT, META, NVDA, ORCL  | NVDA                |
+| **Portfolio Return**  | 0.029486                      | 0.011445            |
+| **Portfolio Risk**    | 0.008381                      | 0.034697            |
+| **Sharpe Ratio**      | 2.3250                        | 0.0416              |
+
+---
+
+## Visualizations
+
+- **Efficient Frontier**:  
+  Quantum portfolios outperform classical portfolios in risk-return trade-offs.
+  
+  ![Efficient Frontier](/efficient_frontier.png)
+
+- **Asset Contributions**:  
+  Shows individual asset return and risk contributions in the quantum portfolio.
+
+  ![Asset Contributions](/asset_contribution.png)
+
+---
+
+## Challenges
+
+- Translating quantum states into actionable portfolio decisions.
+- Optimizing parameters for both risk and return balance.
+
